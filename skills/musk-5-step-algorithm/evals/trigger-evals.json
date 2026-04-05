@@ -1,0 +1,42 @@
+[
+  {
+    "query": "我们准备把客服分单流程全自动化，你别先给方案，先用马斯克那套五步法给我压一遍。",
+    "should_trigger": true
+  },
+  {
+    "query": "用 The Algorithm 看一下我们现在的需求评审流程，重点是哪些步骤应该删掉。",
+    "should_trigger": true
+  },
+  {
+    "query": "我想要一个很硬核的框架来审查制造流程，先质疑需求，再删步骤，再谈优化和自动化。",
+    "should_trigger": true
+  },
+  {
+    "query": "别泛泛而谈，帮我按 Musk 的五步法重做 QA handoff。",
+    "should_trigger": true
+  },
+  {
+    "query": "我们的招聘流程越来越复杂，你用一个先质疑再删除再加速的办法帮我梳理。",
+    "should_trigger": true
+  },
+  {
+    "query": "给我讲讲马斯克的生平，按时间线介绍一下 PayPal 到 xAI。",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我查一下 xAI 现在的最新模型和定价。",
+    "should_trigger": false
+  },
+  {
+    "query": "我想写一篇赞美马斯克执行力的短文，要热血一点。",
+    "should_trigger": false
+  },
+  {
+    "query": "把这个流程图画成 Mermaid，顺便解释一下自动化节点。",
+    "should_trigger": false
+  },
+  {
+    "query": "给我做一个普通的项目计划，不需要什么名人方法论。",
+    "should_trigger": false
+  }
+]
