@@ -1,0 +1,23 @@
+{
+  "skill_name": "musk-5-step-algorithm",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "用马斯克五步工作法审查我们公司的招聘流程。现在一共有 7 轮面试，还准备上一个 AI 自动筛简历系统。",
+      "expected_output": "明确按五步顺序给出审查结果，先质疑和删除，再谈优化、提速和自动化。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "我们团队想把 QA 回归测试全自动化，你用 The Algorithm 压一遍这个方案。",
+      "expected_output": "指出不能直接跳到自动化，需要先质疑需求和删除无效步骤。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "别讲鸡汤，直接把 Musk 的五步法套到一个 SaaS 产品需求评审流程上，给我一个 Do now / Do later / Do not do 清单。",
+      "expected_output": "给出结构化五步输出，并以三个行动桶收尾。",
+      "files": []
+    }
+  ]
+}

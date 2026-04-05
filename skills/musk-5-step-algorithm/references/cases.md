@@ -1,0 +1,33 @@
+# Cases And Anti-Patterns
+
+## Cases
+
+### Manufacturing or operations
+
+Use the full five-step pass. These are the most natural fit because the original public framing came from engineering and production contexts.
+
+### Software delivery
+
+The same method still works:
+
+- requirements become tickets, policies, or acceptance criteria
+- parts or process become meetings, handoffs, checks, forms, or tools
+- cycle time becomes merge, deploy, or feedback latency
+
+### Team process
+
+This method is useful for approval chains, recruiting loops, planning rituals, QA signoff, incident reviews, and roadmapping rituals.
+
+## Anti-patterns
+
+### Anti-pattern 1: optimize first
+
+If the user asks how to speed up or tune a process that has not been questioned or reduced, call that out directly.
+
+### Anti-pattern 2: automate chaos
+
+If the workflow is unstable, low-volume, or full of vague requirements, recommend manual stabilization before automation.
+
+### Anti-pattern 3: motivational fluff
+
+The user is usually looking for a framework, not hero worship. Keep the answer operational.
