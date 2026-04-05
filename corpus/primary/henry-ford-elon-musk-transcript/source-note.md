@@ -12,3 +12,15 @@ Long-form Musk interviews are useful for reconstructing his first-principles fra
 
 - Retry with browser-assisted capture or a local PDF extraction path.
 - Keep the canonical URL in the source index as a pending primary source.
+
+## Web-assisted quotes recovered
+
+Using a PDF reader path in this session, we recovered several high-value passages:
+
+- "It's very rare that people try to think of something on a first principles basis."
+- "We'll do that because it's always been done that way."
+- "You have to build up the reasoning from the ground up from first principles as in the phrase that's used in physics."
+- "You look at the fundamentals and construct your reasoning from that."
+- "That's what I mean by reason and conclusive first principles."
+
+These are important because the five-step method is best understood as an execution discipline layered on top of Musk's first-principles reasoning.
