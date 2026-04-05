@@ -9,7 +9,8 @@
       "expectations": [
         "The response preserves the five-step order.",
         "The response questions requirements before discussing automation.",
-        "The response includes a concrete recommendation about deleting process steps."
+        "The response includes a concrete recommendation about deleting process steps.",
+        "The response avoids hero-worship or generic motivational filler."
       ]
     },
     {
@@ -20,7 +21,8 @@
       "expectations": [
         "The response explicitly resists jumping straight to automation.",
         "The response includes a step 1 requirement challenge.",
-        "The response includes a step 2 deletion pass."
+        "The response includes a step 2 deletion pass.",
+        "The response uses a concrete anti-automation rationale or case."
       ]
     },
     {
@@ -31,7 +33,8 @@
       "expectations": [
         "The response uses structured five-step headings or an equivalent ordered format.",
         "The response ends with Do now, Do later, and Do not do buckets.",
-        "The response keeps the tone operational rather than motivational."
+        "The response keeps the tone operational rather than motivational.",
+        "The response distinguishes deletion from simplification."
       ]
     }
   ]

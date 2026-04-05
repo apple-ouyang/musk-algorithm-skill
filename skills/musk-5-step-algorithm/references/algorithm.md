@@ -43,6 +43,8 @@ Operational translation:
 - automate stable, repeated, justified work
 - do not automate circular requirements, unclear approvals, or low-volume chaos
 
+Useful shorthand when the user is overeager to automate: "Humans are underrated."
+
 Useful supporting quote:
 
 - "Yes, excessive automation at Tesla was a mistake. To be precise, my mistake. Humans are underrated."

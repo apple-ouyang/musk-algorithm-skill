@@ -7,6 +7,8 @@ description: Apply Elon Musk's five-step engineering method ("The Algorithm") to
 
 Use this skill to turn vague execution talk into a strict five-step review. The key value is not inspiration. The key value is forcing the model to preserve order and avoid the classic mistake of optimizing or automating something that should not exist.
 
+Treat this as an execution framework, not as biography trivia.
+
 ## Core rule
 
 Run the steps in this exact order:
@@ -38,6 +40,14 @@ Do not use this skill for:
 ## Working style
 
 Be sharp and concrete. Treat every requirement as suspect until justified. Prefer deletion over optimization. Prefer optimization over speed. Prefer speed over automation.
+
+Where helpful, anchor the method with short source-backed phrases such as:
+
+- "Make the requirements less dumb."
+- "Try very hard to delete the part or process."
+- "Humans are underrated."
+
+Keep quotes short and accurate. Do not invent new Musk wording.
 
 If the user brings up an existing process, ask:
 
@@ -94,6 +104,22 @@ End with three buckets:
 - If a process has circular justifications or nobody owns a requirement, mention the fiberglass-strip style anti-pattern: teams are defending a step without knowing why it exists.
 - If the workflow is unstable, low-volume, or politically overloaded, recommend manual stabilization before automation.
 
+## Canonical examples
+
+Use these when the user would benefit from concrete cases:
+
+### FlufferBot
+
+Tesla tried to automate placement of fluff on top of a battery pack. The line kept failing. The critical question became: do we even need the part? Testing showed the result did not change in the cabin, so the part was unnecessary. This is the cleanest public case of "question requirement -> delete part -> stop automating nonsense."
+
+### Conveyor-belt over-complexity
+
+Musk later said Tesla had a "crazy, complex network of conveyor belts" and "got rid of that whole thing." Use this to illustrate that simplification can require deleting infrastructure, not merely tuning it.
+
+### Humans are underrated
+
+Use this short quote as the punchline when a user wants to automate too early. The point is not that automation is bad. The point is that bad automation amplifies bad process design.
+
 ## Examples
 
 **Example 1**
@@ -130,4 +156,5 @@ Read these bundled references when you need supporting detail:
 
 - `references/algorithm.md` for the distilled method
 - `references/cases.md` for cases and anti-patterns
+- `references/quotes.md` for short source-backed phrases
 - `references/source-map.md` for provenance
