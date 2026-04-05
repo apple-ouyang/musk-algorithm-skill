@@ -26,6 +26,14 @@ The research corpus now strongly supports a stricter interpretation of step 1: a
 
 Use the production-hell style anecdote as an explanatory pattern: one team says a step exists for reason A, another says reason B, and nobody owns the truth. In those cases, the skill should treat the requirement as untrusted until proven.
 
+### FlufferBot case
+
+Use the battery-pack fluff example as the canonical anti-pattern for premature automation:
+
+- a robot pipeline was built around a task that humans handled more reliably
+- the underlying part turned out to be unnecessary
+- the real fix was to question the requirement and delete the part, not improve the automation
+
 ## Anti-patterns
 
 ### Anti-pattern 1: optimize first
@@ -35,6 +43,8 @@ If the user asks how to speed up or tune a process that has not been questioned 
 ### Anti-pattern 2: automate chaos
 
 If the workflow is unstable, low-volume, or full of vague requirements, recommend manual stabilization before automation.
+
+Useful supporting quote pattern: "Humans are underrated." Use that idea to explain why manual handling can be the right intermediate state.
 
 ### Anti-pattern 3: motivational fluff
 
