@@ -18,6 +18,14 @@ The same method still works:
 
 This method is useful for approval chains, recruiting loops, planning rituals, QA signoff, incident reviews, and roadmapping rituals.
 
+### Requirement ownership case
+
+The research corpus now strongly supports a stricter interpretation of step 1: a requirement should point to a specific person, not an abstract department. This is important because many modern software and operations teams inherit vague process rules with no accountable owner.
+
+### Fiberglass-strip style case
+
+Use the production-hell style anecdote as an explanatory pattern: one team says a step exists for reason A, another says reason B, and nobody owns the truth. In those cases, the skill should treat the requirement as untrusted until proven.
+
 ## Anti-patterns
 
 ### Anti-pattern 1: optimize first

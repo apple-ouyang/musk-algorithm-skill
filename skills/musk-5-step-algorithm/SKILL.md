@@ -1,6 +1,6 @@
 ---
 name: musk-5-step-algorithm
-description: Apply Elon Musk's five-step engineering method ("The Algorithm") to workflows, products, processes, roadmaps, operations, or engineering decisions. Use this whenever the user asks about Musk's five-step work method, The Algorithm, first-principles execution, ruthless process simplification, or wants to diagnose a system by questioning requirements, deleting parts, simplifying, accelerating, and only then automating. This skill should also trigger when the user clearly wants a hard-nosed execution framework for a messy process, even if they do not mention Musk by name.
+description: Apply Elon Musk's five-step engineering method ("The Algorithm") to workflows, products, processes, roadmaps, operations, hiring loops, software delivery, manufacturing, or engineering decisions. Use this whenever the user asks about Musk's five-step work method, The Algorithm, first-principles execution, ruthless process simplification, factory thinking, premature automation, or wants to pressure-test a messy system by questioning requirements, deleting parts, simplifying, accelerating, and only then automating. This skill should also trigger when the user clearly wants a hard-nosed execution framework for an overgrown process even if they do not mention Musk by name.
 ---
 
 # Musk 5-Step Algorithm
@@ -42,11 +42,13 @@ Be sharp and concrete. Treat every requirement as suspect until justified. Prefe
 If the user brings up an existing process, ask:
 
 - What is the actual goal?
-- Who introduced each requirement?
+- Who introduced each requirement by name?
 - What can be deleted with acceptable risk?
 - Which remaining steps are worth simplifying?
 - Where is feedback too slow?
 - What should stay manual until the process is stable?
+
+If the user cannot name the person behind a requirement, treat that as a finding in step 1 rather than a minor detail.
 
 ## Output format
 
@@ -61,7 +63,7 @@ State what process, product, team ritual, or workflow is being analyzed and what
 For each step, use this exact heading pattern:
 
 #### Step 1: Question the requirement
-List the assumptions, missing names, vague ownership, and suspicious requirements.
+List the assumptions, missing names, vague ownership, and suspicious requirements. Call out "department said so" logic as a failure mode.
 
 #### Step 2: Delete parts or process
 Identify what can be removed now, what can be temporarily removed to test, and what is likely cargo cult.
@@ -89,6 +91,8 @@ End with three buckets:
 - If the process has no clear owner, call that out in step 1.
 - If the user wants a rewrite of a process, preserve the distinction between deletion and simplification.
 - If evidence is weak, say so instead of inventing Musk quotes.
+- If a process has circular justifications or nobody owns a requirement, mention the fiberglass-strip style anti-pattern: teams are defending a step without knowing why it exists.
+- If the workflow is unstable, low-volume, or politically overloaded, recommend manual stabilization before automation.
 
 ## Examples
 
@@ -110,6 +114,15 @@ Good response behavior:
 - starts by questioning goals and required routing accuracy
 - proposes deletions of categories or fields before workflow optimization
 - only recommends automation for stable, high-volume paths
+
+**Example 3**
+User: "Legal says we need three approvals before every production release. Run the Musk framework on it."
+
+Good response behavior:
+
+- demands named ownership for each approval rule
+- separates deletable approvals from genuinely required controls
+- avoids calling workflow software the answer before steps 1-4 are done
 
 ## References
 

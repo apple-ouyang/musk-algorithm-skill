@@ -16,6 +16,12 @@ The corpus supports this ordered sequence as the public core of Musk's five-step
 
 Treat every requirement as a hypothesis, not gospel. Push for named ownership rather than vague department-level authority.
 
+Operational translation:
+
+- ask who owns the requirement by name
+- avoid accepting "legal", "security", "ops", or "management" as sufficient attribution
+- log missing ownership as a flaw in the process itself
+
 ### Step 2
 
 Deletion is a feature, not a cleanup pass. Removing steps exposes what the system actually needs.
@@ -31,3 +37,8 @@ Speed matters after the structure is correct. Faster iteration on a bad process 
 ### Step 5
 
 Automation amplifies the process that exists. If the underlying workflow is dumb, automation industrializes the dumbness.
+
+Operational translation:
+
+- automate stable, repeated, justified work
+- do not automate circular requirements, unclear approvals, or low-volume chaos

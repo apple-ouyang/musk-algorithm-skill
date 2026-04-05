@@ -38,5 +38,45 @@
   {
     "query": "给我做一个普通的项目计划，不需要什么名人方法论。",
     "should_trigger": false
+  },
+  {
+    "query": "我老板让我们把发布流程接入 AI 审批，但现在每次发版都要找三拨人签字。你用那个先质疑需求再删步骤的 Musk 框架帮我压一下。",
+    "should_trigger": true
+  },
+  {
+    "query": "招聘流程已经 8 轮了，HR 说这是行业最佳实践。别给我泛泛建议，用一个硬核删流程的方法拆掉它。",
+    "should_trigger": true
+  },
+  {
+    "query": "我们工厂想提速，但我怀疑大家在优化一个根本不该存在的检测流程。按 The Algorithm 过一遍。",
+    "should_trigger": true
+  },
+  {
+    "query": "现在有个跨部门需求，没人说得清是谁定的，但大家都默认要做。用 Musk 的五步法帮我查这个流程该不该留。",
+    "should_trigger": true
+  },
+  {
+    "query": "别上来就推荐工具，先按质疑、删除、简化、提速、自动化这个顺序帮我检查一下我们的 QA handoff。",
+    "should_trigger": true
+  },
+  {
+    "query": "请总结一下《埃隆·马斯克传》里关于 Tesla 和 SpaceX 的故事。",
+    "should_trigger": false
+  },
+  {
+    "query": "我要查一下特斯拉 2016 年 master plan 的全文。",
+    "should_trigger": false
+  },
+  {
+    "query": "把我们现有 SOP 重新排版成更正式的文档，不需要改变流程本身。",
+    "should_trigger": false
+  },
+  {
+    "query": "我们准备做自动化，但先帮我看一下有哪些 Zapier 或 Make 模板能直接用。",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我写一段关于 first principles thinking 的演讲稿。",
+    "should_trigger": false
   }
 ]

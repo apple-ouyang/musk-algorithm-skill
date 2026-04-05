@@ -24,3 +24,9 @@ The repository includes:
 - trigger eval fixtures
 
 This is sufficient for reproducible follow-up validation once the missing external tooling is installed.
+
+## Additional manual improvement pass
+
+- Expanded trigger-evals from 10 to 20 realistic queries.
+- Tightened the skill description to cover hiring loops, factory thinking, and premature automation prompts.
+- Strengthened step 1 around named ownership and step 5 around premature automation.
