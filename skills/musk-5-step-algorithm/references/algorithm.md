@@ -42,3 +42,18 @@ Operational translation:
 
 - automate stable, repeated, justified work
 - do not automate circular requirements, unclear approvals, or low-volume chaos
+
+Useful supporting quote:
+
+- "Yes, excessive automation at Tesla was a mistake. To be precise, my mistake. Humans are underrated."
+
+## First-principles layer
+
+The five-step method is stronger when explained as an execution discipline layered on top of first-principles reasoning.
+
+Useful supporting wording from the corpus:
+
+- people often do things because "it's always been done that way"
+- reasoning should be built "from the ground up from first principles"
+
+Use this layer when the user asks why the method exists, not only how to apply it.
