@@ -6,32 +6,9 @@
 
 ## 安装
 
-我已经实际验证过，下面这条简化安装命令可以直接跑通：
-
-```bash
-npx skills add apple-ouyang/musk-algorithm-skill -g -y
-```
-
-如果你想显式指定 skill 名，也可以用这条：
-
-```bash
-npx skills add apple-ouyang/musk-algorithm-skill -g -y --skill musk-5-step-algorithm
-```
-
-说明：
-
-- 上面两条命令我都在隔离的临时 `HOME` 目录里实际跑过，安装成功。
-- 我不建议把 `apple-ouyang/musk-algorithm-skill@musk-5-step-algorithm` 当成 README 主命令，因为 CLI 在这个仓库场景下仍然主要把它当作“指定 repo 来源”，而不是一个严格的 skill 选择器。
-
-## 怎么上 leaderboard
-
-`skills.sh` 的 leaderboard 会根据匿名安装遥测自动统计。只要用户运行类似下面这样的命令安装：
-
 ```bash
 npx skills add apple-ouyang/musk-algorithm-skill
 ```
-
-安装量就会进入统计。
 
 ## 仓库内容
 
